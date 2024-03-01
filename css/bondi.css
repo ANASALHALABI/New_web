@@ -1,0 +1,107 @@
+:root{
+    --dark-color : #442C4C;
+    --nav-color  : #53375B;
+    --yelow-text:  #FBC113;
+    --main-text: #422A47;
+}
+body{
+    background-color: #F9F9F9;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.no-gutters > .col, 
+.no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+.ber{
+    padding: 0%;
+    background-color: var(--dark-color);
+    @media (min-width: 1200px){
+        width: 204px;
+    }
+}
+
+.nav-pol li a:hover{
+    background-color: blue;
+}
+.class{
+    color: var(--yelow-text);
+}
+.top{
+    font-size: 16px;
+}
+.bottom{
+    font-size: 14px;
+}
+.content{
+    background-color: var(--nav-color);
+    height: 100px;
+}
+.classroom{
+    color: #ffffff;
+    font-size: 18px;
+}
+.ntop{
+    font-size: 16px;
+}
+.ntop .one{
+    color: var(--yelow-text);
+}
+.All::after{
+    content: '';
+    width: 108px;
+    height: 2px;
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--yelow-text);
+}
+.ntop .tow{
+    color: #D7D1DF;
+}
+.nav-tow{
+    height: 68px;
+}
+.nav p{
+    font-size: 28px;
+}
+.nav2{
+    color: var(--main-text);
+}
+.n2{
+    border: 1px solid var(--nav-color);
+    padding: 0 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: var(--main-text);
+}
+.dropdown{
+    font-size: 14px;
+    color: #585E75;
+}
+.card-title{
+    font-size: 18px;
+}
+.card-subtitle{
+    font-size: 14px;
+}
+.card-link{
+    text-decoration: none;
+}
+.card-ltext{
+    color: #38B663;
+    font-size: 12px;
+}
+.card{
+    width: 279px;
+}
