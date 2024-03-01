@@ -61,7 +61,7 @@ body, html {
     width: 108px;
     height: 2px;
     position: absolute;
-    bottom: -22px;
+    bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
     background-color: var(--yelow-text);
