@@ -6,6 +6,7 @@
 }
 body{
     background-color: #F9F9F9;
+    font-family: "Roboto", sans-serif;
 }
 body, html {
     margin: 0;
@@ -25,9 +26,9 @@ body, html {
 .ber{
     padding: 0%;
     background-color: var(--dark-color);
-    @media (min-width: 1200px){
+    /* @media (min-width: 1200px){
         width: 204px;
-    }
+    } */
 }
 
 .nav-pol li a:hover{
@@ -80,14 +81,35 @@ body, html {
 }
 .n2{
     border: 1px solid var(--nav-color);
-    padding: 0 15px;
-    border-radius: 8px;
+    padding: 4px 16px;
+    border-radius: 10px;
     font-size: 14px;
     color: var(--main-text);
+    text-decoration: none;
+}
+.n2:hover{
+    cursor: pointer;
+    background-color: var(--nav-color);
+    color: #ffffff;
 }
 .dropdown{
     font-size: 14px;
     color: #585E75;
+}
+.dropdown:hover{
+    color: var(--main-text);
+}
+.dropdown-menu.show{
+    font-size:14px ;
+    color: var(--main-text);
+    width: 149px;
+}
+.dropdown-item:hover{
+    background-color: #E3E2EB;
+    border-radius: 6px;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    border: none;
 }
 .card-title{
     font-size: 18px;
@@ -103,5 +125,6 @@ body, html {
     font-size: 12px;
 }
 .card{
-    width: 279px;
+    border: none;
 }
+
