@@ -95,6 +95,7 @@ body, html {
 .dropdown{
     font-size: 14px;
     color: #585E75;
+    outline: none;
 }
 .dropdown:hover{
     color: var(--main-text);
@@ -108,9 +109,9 @@ body, html {
     background-color: #E3E2EB;
     border-radius: 6px;
 }
-.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+/* .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
     border: none;
-}
+} */
 .card-title{
     font-size: 18px;
 }
