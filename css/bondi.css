@@ -123,6 +123,7 @@ body, html {
 .card-ltext{
     color: #38B663;
     font-size: 12px;
+    font-weight: 500;
 }
 .card{
     border: none;
