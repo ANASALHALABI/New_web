@@ -31,9 +31,9 @@ body, html {
     } */
 }
 
-.nav-pol li a:hover{
+/* .nav-pol li a:hover{
     background-color: blue;
-}
+} */
 .class{
     color: var(--yelow-text);
 }
